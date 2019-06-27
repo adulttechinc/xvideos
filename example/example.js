@@ -26,7 +26,7 @@ async function retrieveFreshVideos() {
  }
 
  async function retrieveDashboardVideos() {
-    const dashboardList = await xvideos.videos.dashboard({ page: 1 });
+    const dashboardList = await xvideos.videos.dashboard({ page: 2 });
     console.log(dashboardList.videos); // { url, path, title, duration, profile: { name, url }, views, }
     console.log(dashboardList.pagination.current); // 1 
     console.log(dashboardList.pagination.pages); // [1, 2, 3, 4, 5...]
@@ -47,7 +47,7 @@ async function retrieveFreshVideos() {
     
     
     const detail = await xvideos.videos.details(dashboardList.videos[0]); 
-    console.log('----' + JSON.stringify(fresh.videos[0]));
+    console.log('----' + JSON.stringify(dashboardList.videos[0]));
     console.log('----' + JSON.stringify(detail));
  }
  
