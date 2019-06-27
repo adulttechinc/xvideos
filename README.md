@@ -1,19 +1,19 @@
 # xvideos
 
-[![Build Status](https://travis-ci.org/rodrigogs/xvideos.svg?branch=master)](https://travis-ci.org/rodrigogs/xvideos)
-[![Code Climate](https://codeclimate.com/github/rodrigogs/xvideos/badges/gpa.svg)](https://codeclimate.com/github/rodrigogs/xvideos)
-[![Test Coverage](https://codeclimate.com/github/rodrigogs/xvideos/badges/coverage.svg)](https://codeclimate.com/github/rodrigogs/xvideos/coverage)
+[![Build Status](https://travis-ci.org/adulttechinc/xvideos.svg?branch=master)](https://travis-ci.org/adulttechinc/xvideos)
+[![Code Climate](https://codeclimate.com/github/adulttechinc/xvideos/badges/gpa.svg)](https://codeclimate.com/github/adulttechinc/xvideos)
+[![Test Coverage](https://codeclimate.com/github/adulttechinc/xvideos/badges/coverage.svg)](https://codeclimate.com/github/adulttechinc/xvideos/coverage)
 
 A a [Node.js](https://nodejs.org) [xvideos.com](xvideos.com) API library.
 
 ### Install
 ```bash
-$ npm install @rodrigogs/xvideos
+$ npm install @adulttechinc/xvideos
 ```
 
 ### Usage
 ```javascript
-const xvideos = require('@rodrigogs/xvideos');
+const xvideos = require('@adulttechinc/xvideos');
 
 //-- Inside an async function --//
 
